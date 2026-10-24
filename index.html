@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodies | Fresh food, made for sharing</title>
+    <meta name="description" content="Foodies serves fresh sandwiches, bowls, bakes and desserts, made every day.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrap">
+            <a class="logo" href="#home"><img src="images/logo.png" alt="Foodies"></a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+            <nav class="nav" id="nav" aria-label="Main">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#bakery">Bakery</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a class="btn" href="#menu">Order now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="wrap">
+                <h1>Fresh food, made for sharing.</h1>
+                <p class="lead">Sandwiches, bowls, bakes and desserts, cooked each morning with ingredients we pick ourselves.</p>
+                <div class="btn-row">
+                    <a class="btn" href="#menu">See the menu</a>
+                    <a class="btn btn-ghost" href="#contact">Find us</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="wrap split">
+                <img src="images/img/img-1.png" alt="A bowl of quinoa, chickpeas, avocado, spinach and tomatoes" loading="lazy">
+                <div>
+                    <h2>Food that tastes good and feels good</h2>
+                    <p>We cook with whole grains, fresh greens and seasonal vegetables, and nothing sits in a fridge for days. If you can see it in the bowl, we prepared it that morning.</p>
+                    <ul class="points">
+                        <li><strong>Picked fresh</strong><span>Vegetables and herbs come in daily from local growers.</span></li>
+                        <li><strong>Cooked to order</strong><span>Hot dishes leave the kitchen the moment they are ready.</span></li>
+                        <li><strong>Made for every diet</strong><span>Vegetarian, vegan and gluten-free options on every menu.</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section menu" id="menu">
+            <div class="wrap">
+                <div class="section-head">
+                    <h2>Popular this week</h2>
+                    <p>Three dishes our regulars keep coming back for.</p>
+                </div>
+                <div class="cards">
+                    <article class="card">
+                        <img src="images/img/img-3.jpg" alt="A wholegrain sandwich filled with red cabbage, carrot and sprouts" loading="lazy">
+                        <div class="card-body">
+                            <h3>Rainbow veggie sandwich</h3>
+                            <p>Wholegrain bread, red cabbage, carrot, peppers and sprouts.</p>
+                            <div class="card-foot"><span class="price">$8.50</span><a class="btn" href="#contact">Order</a></div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="images/img/img-4.jpg" alt="A pita filled with falafel, carrot slaw and kale on a plate with fries" loading="lazy">
+                        <div class="card-body">
+                            <h3>Falafel pita plate</h3>
+                            <p>Crisp falafel, carrot slaw and kale, served with fries.</p>
+                            <div class="card-foot"><span class="price">$10.00</span><a class="btn" href="#contact">Order</a></div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="images/img/img-5.jpg" alt="Stuffed French toast with fresh raspberries and syrup" loading="lazy">
+                        <div class="card-body">
+                            <h3>Raspberry French toast</h3>
+                            <p>Cream-filled toast with fresh raspberries and maple syrup.</p>
+                            <div class="card-foot"><span class="price">$9.00</span><a class="btn" href="#contact">Order</a></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section collage">
+            <div class="wrap split flip">
+                <div>
+                    <h2>Something for everyone at the table</h2>
+                    <p>Come hungry with a group. There is a plate here for the burger fan, the salad person and whoever saves room for cake.</p>
+                    <ul class="kinds">
+                        <li>Pizza and burgers</li>
+                        <li>Cakes and desserts</li>
+                        <li>Savoury pies</li>
+                        <li>Salads and bowls</li>
+                    </ul>
+                </div>
+                <img src="images/img/img-2.png" alt="A collage of pizza, burger and snacks, a strawberry cake, a savoury pie and a mixed salad" loading="lazy">
+            </div>
+        </section>
+
+        <section class="bakery" id="bakery">
+            <div class="wrap">
+                <h2>Fresh from the oven</h2>
+                <p class="lead">Cinnamon rolls, chocolate twists and muffins, baked before we open and sold until they run out.</p>
+                <div class="btn-row"><a class="btn" href="#contact">Pre-order a box</a></div>
+            </div>
+        </section>
+
+        <section class="section special">
+            <div class="wrap split">
+                <img src="images/bg/bg-3.jpg" alt="Flatbread slices with pear and blue cheese on serving boards" loading="lazy">
+                <div>
+                    <h2>Weekend sharing platter</h2>
+                    <p>Pear and blue cheese flatbreads, cut for sharing and served on the board. Available Friday to Sunday while the dough lasts.</p>
+                    <div class="btn-row"><a class="btn" href="#contact">Reserve a platter</a></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section reviews" id="reviews">
+            <div class="wrap">
+                <h2>What our guests say</h2>
+                <div class="review-grid">
+                    <figure class="review">
+                        <blockquote>The sandwiches are huge and the vegetables taste like they were picked an hour ago. My lunch spot now.</blockquote>
+                        <figcaption class="who"><img src="images/review/review-1.jpg" alt="Portrait of Daniel"><div>Daniel<span>Regular guest</span></div></figcaption>
+                    </figure>
+                    <figure class="review">
+                        <blockquote>Booked the weekend platter for my sister’s birthday and everyone asked for the recipe. Lovely, friendly staff too.</blockquote>
+                        <figcaption class="who"><img src="images/review/review-2.jpg" alt="Portrait of Sara"><div>Sara<span>Regular guest</span></div></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="wrap">
+                <h2>Visit or order</h2>
+                <div class="info">
+                    <div><h3>Address</h3><p>Shop No 1, Main Street</p></div>
+                    <div><h3>Opening hours</h3><p>Every day<br>09:00 to 22:00</p></div>
+                    <div><h3>Phone</h3><p>+00 000 0000000</p></div>
+                    <div><h3>E-mail</h3><p>hello@foodies.com</p></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <img src="images/logo.png" alt="Foodies">
+            <p>Copyright © 2026 Foodies. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
